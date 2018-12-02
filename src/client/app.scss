@@ -1,0 +1,25 @@
+$silver: #cccccc;
+$dark-silver: #a0a0a0;
+$grafity: #1E1E1E;
+$dark-grafity: #151515;
+$silver-red: #941212;
+$silver-blue: #125873;
+
+:export {
+  silver: $silver;
+  darkSilver: $dark-silver; 
+  grafity: $grafity;
+  darkGrafity: $dark-grafity;
+  silverRed: $silver-red;
+  silverBlue: $silver-blue;
+}
+
+h1 {
+  color: $silver;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+  background: $grafity;
+}
